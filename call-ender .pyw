@@ -15,7 +15,7 @@ def esc():
     keyboard.release(Key.ctrl)
     keyboard.release(Key.shift)
     keyboard.release("b")
-    app.warn(title="belina", text="sei stato dissconnesso,TESTA DI CAZZO")
+    app.warn(title="belina", text="sei stato dissconnesso")
 
 
 app = App(title="auto call-ender", width=177, height=103, layout="grid")
